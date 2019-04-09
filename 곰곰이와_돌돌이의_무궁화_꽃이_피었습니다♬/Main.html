@@ -1,0 +1,31 @@
+<html>
+<head>
+    <style type="text/css">
+        canvas { 
+            border: 1px solid black;
+            background-image: url("gomgom_doldol_game_notButton.png");
+            background-size: contain;
+        }
+        button{
+            border: none;
+            background-color : transparent;
+        }
+        .start{
+            position: absolute;
+            top: 500px;
+            left: 200px;
+        }
+        .way{
+            position:absolute;
+            top: 500px;
+            left: 500px;
+        }
+      </style>
+      </head>
+
+      <body>
+        <canvas id = "canvas" width = "800" height = "600"></canvas>
+        <button class = "start" onClick="location.href = 'game.html'"><img src="start_button.png"></button>
+        <button class = "way" onClick="location.href = 'way.html'"><img src="game_way_button.png"></button>
+      </body>
+</html>
